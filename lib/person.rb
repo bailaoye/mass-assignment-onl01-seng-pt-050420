@@ -16,6 +16,9 @@ class Person
     @pant_width = pant_width
   end
 
-  def add_attributes
+  def add_attributes(pant_length:nil, pant_width:nil)
+    @pant_length = pant_length
+    @pant_width = pant_width
+  end
 
 end
