@@ -3,5 +3,6 @@ class Person
 
   def initialize(name:nil, birthday:nil, hair_color:nil, height:nil, weight:nil, handed:nil, complexion:nil, t_shirt_size:nil, wrist_size:nil, glove_size:nil)
     attributes.each {|key, val| self.send("#{key}=", value)}
+  end
 
 end
